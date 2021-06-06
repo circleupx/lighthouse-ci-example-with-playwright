@@ -1,0 +1,1 @@
+# lighthouse-ci-example-with-playwright
