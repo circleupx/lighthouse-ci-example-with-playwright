@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="1" failures="1" errors="0" time="2.52">
+  <testsuite name="Load shop.polymer-project.org home pages" errors="0" failures="1" skipped="0" timestamp="2021-06-08T01:29:22" time="2.382" tests="1">
+    <testcase classname="Load shop.polymer-project.org home pages should have a page performance greater than or equal to 90" name="Load shop.polymer-project.org home pages should have a page performance greater than or equal to 90" time="0.001">
+      <failure>TypeError: Cannot read property &apos;newPage&apos; of null
+    at C:\Users\Yunier\Documents\lighthouse-ci-example-with-playwright\test\lighthouse.ts:19:26
+    at Generator.next (&lt;anonymous&gt;)
+    at C:\Users\Yunier\Documents\lighthouse-ci-example-with-playwright\test\lighthouse.ts:8:71
+    at new Promise (&lt;anonymous&gt;)
+    at Object.&lt;anonymous&gt;.__awaiter (C:\Users\Yunier\Documents\lighthouse-ci-example-with-playwright\test\lighthouse.ts:4:12)
+    at Object.&lt;anonymous&gt; (C:\Users\Yunier\Documents\lighthouse-ci-example-with-playwright\test\lighthouse.ts:18:23)
+    at Promise.then.completed (C:\Users\Yunier\Documents\lighthouse-ci-example-with-playwright\node_modules\jest-circus\build\utils.js:316:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (C:\Users\Yunier\Documents\lighthouse-ci-example-with-playwright\node_modules\jest-circus\build\utils.js:241:10)
+    at _callCircusHook (C:\Users\Yunier\Documents\lighthouse-ci-example-with-playwright\node_modules\jest-circus\build\run.js:181:40)</failure>
+      <failure>TypeError: Cannot read property &apos;close&apos; of undefined
+    at C:\Users\Yunier\Documents\lighthouse-ci-example-with-playwright\test\lighthouse.ts:23:16
+    at Generator.next (&lt;anonymous&gt;)
+    at C:\Users\Yunier\Documents\lighthouse-ci-example-with-playwright\test\lighthouse.ts:8:71
+    at new Promise (&lt;anonymous&gt;)
+    at Object.&lt;anonymous&gt;.__awaiter (C:\Users\Yunier\Documents\lighthouse-ci-example-with-playwright\test\lighthouse.ts:4:12)
+    at Object.&lt;anonymous&gt; (C:\Users\Yunier\Documents\lighthouse-ci-example-with-playwright\test\lighthouse.ts:22:22)
+    at Promise.then.completed (C:\Users\Yunier\Documents\lighthouse-ci-example-with-playwright\node_modules\jest-circus\build\utils.js:316:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (C:\Users\Yunier\Documents\lighthouse-ci-example-with-playwright\node_modules\jest-circus\build\utils.js:241:10)
+    at _callCircusHook (C:\Users\Yunier\Documents\lighthouse-ci-example-with-playwright\node_modules\jest-circus\build\run.js:181:40)</failure>
+    </testcase>
+  </testsuite>
+</testsuites>

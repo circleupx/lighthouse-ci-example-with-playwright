@@ -1,0 +1,32 @@
+{
+  "name": "lighthouse-ci-playwright",
+  "version": "1.0.0",
+  "description": "A sample project on how to use lighthouse along with playwright",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/circleupx/lighthouse-ci-example-with-playwright"
+  },
+  "keywords": [
+    "playwright",
+    "lighthouse"
+  ],
+  "author": "CircleUpX",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.13.0",
+    "@types/jest": "^26.0.23",
+    "jest": "^27.0.4",
+    "jest-junit": "^12.1.0",
+    "lighthouse": "^8.0.0",
+    "playwright": "^1.11.1"
+  },
+  "dependencies": {
+    "ts-jest": "^27.0.3",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.3.2"
+  }
+}
